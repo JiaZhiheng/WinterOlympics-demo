@@ -1,0 +1,384 @@
+body,
+h3 {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#top {
+  height: 180px;
+  background: url(../images/top_bg.png) center no-repeat;
+  margin: 29px 0 30px 0;
+}
+
+#wrap {
+  height: 768px;
+  background: url(../images/2022_bg.jpg) center no-repeat;
+}
+
+#wrap h3 {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 82px 0 20px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.project {
+  width: 1260px;
+  height: 495px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item,
+.item div {
+  width: 121px;
+  height: 121px;
+}
+
+.item a {
+  display: block;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.item a div {
+  position: absolute;
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 121px;
+  font-weight: bold;
+}
+
+.item a div:nth-child(1) {
+  transform: translateZ(1px);
+}
+
+.item a div:last-child span {
+  display: block;
+  transform: scaleX(-1);
+  /* 镜像 */
+}
+
+
+/* num1 */
+
+.num1 {
+  width: 246px;
+  padding-left: 12px;
+}
+
+
+/* 短道速滑 */
+
+.num1 .item:nth-child(1) {
+  margin-left: 124px;
+  border-radius: 0 16px 0 0;
+}
+
+.num1 .item:nth-child(1) .img {
+  background: url(../images/短道速滑.jpg) center / cover;
+}
+
+.num1 .item:nth-child(1) .text {
+  background: url(../images/短道速滑_bg.jpg) center / cover;
+}
+
+
+/* 冬季两项 */
+
+.num1 .item:nth-child(2) {
+  border-radius: 0 0 16px 0;
+  margin: 2px 0 5px 124px;
+}
+
+.num1 .item:nth-child(2) .img {
+  background: url(../images/冬季两项.jpg) center / cover;
+}
+
+.num1 .item:nth-child(2) .text {
+  background: url(../images/冬季两项_bg.jpg) center / cover;
+}
+
+
+/* 速度滑冰 */
+
+.num1 .item:nth-child(3) {
+  /* margin-left: 124px; */
+  border-radius: 16px 0 0 0;
+}
+
+.num1 .item:nth-child(3) .img {
+  background: url(../images/速度滑冰.jpg) center / cover;
+}
+
+.num1 .item:nth-child(3) .text {
+  background: url(../images/速度滑冰_bg.jpg) center / cover;
+}
+
+
+/* 北欧两项 */
+
+.num1 .item:nth-child(4) {
+  border-radius: 0 16px 16px 0;
+  margin: 2px 0 0 124px;
+}
+
+.num1 .item:nth-child(4) .img {
+  background: url(../images/北欧两项.jpg) center / cover;
+}
+
+.num1 .item:nth-child(4) .text {
+  background: url(../images/北欧两项_bg.jpg) center / cover;
+}
+
+
+/* num2 */
+
+
+/* 花样滑冰 */
+
+.num2 {
+  width: 369px;
+}
+
+.num2 .item:nth-child(1) {
+  border-radius: 0 16px 0 0;
+  margin: 1px 0 0 247px;
+}
+
+.num2 .item:nth-child(1) .img {
+  background: url(../images/花样滑冰.jpg) center / cover;
+}
+
+.num2 .item:nth-child(1) .text {
+  background: url(../images/花样滑冰_bg.jpg) center / cover;
+}
+
+
+/* 冰球 */
+
+.num2 .item:nth-child(2) {
+  margin: 2px 0 4px;
+}
+
+.num2 .item:nth-child(2) .img {
+  background: url(../images/冰球.jpg) center / cover;
+}
+
+.num2 .item:nth-child(2) .text {
+  background: url(../images/冰球_bg.jpg) center / cover;
+}
+
+
+/* 雪橇 */
+
+.num2 .item:nth-child(3) {
+  margin: 0 0 2px 247px;
+}
+
+.num2 .item:nth-child(3) .img {
+  background: url(../images/雪橇.jpg) center / cover;
+}
+
+.num2 .item:nth-child(3) .text {
+  background: url(../images/雪橇_bg.jpg) center / cover;
+}
+
+
+/* 高山滑雪 */
+
+.num2 .item:nth-child(4) {
+  border-radius: 0 0 0 16px;
+  display: inline-block;
+}
+
+.num2 .item:nth-child(4) .img {
+  background: url(../images/高山滑雪.jpg) center / cover;
+}
+
+.num2 .item:nth-child(4) .text {
+  background: url(../images/高山滑雪_bg.jpg) center / cover;
+}
+
+
+/* 冰壶 */
+
+.num2 .item:nth-child(5) {
+  border-radius: 0 0 16px 0;
+  display: inline-block;
+  margin-left: 122px;
+}
+
+.num2 .item:nth-child(5) .img {
+  background: url(../images/冰壶.jpg) center / cover;
+}
+
+.num2 .item:nth-child(5) .text {
+  background: url(../images/冰壶_bg.jpg) center / cover;
+}
+
+.num3 {
+  width: 244px;
+}
+
+
+/* 雪车 */
+
+.num3 .item:nth-child(1) {
+  border-radius: 16px 0 0 16px;
+}
+
+.num3 .item:nth-child(1) .img {
+  background: url(../images/雪车.jpg) center / cover;
+}
+
+.num3 .item:nth-child(1) .text {
+  background: url(../images/雪车_bg.jpg) center / cover;
+}
+
+
+/* 越野滑雪 */
+
+.num3 .item:nth-child(2) {
+  border-radius: 0 0 16px 0;
+  margin: 1px 0 128px 123px;
+}
+
+.num3 .item:nth-child(2) .img {
+  background: url(../images/越野滑雪.jpg) center / cover;
+}
+
+.num3 .item:nth-child(2) .text {
+  background: url(../images/越野滑雪_bg.jpg) center / cover;
+}
+
+
+/* 跳台滑雪 */
+
+.num3 .item:nth-child(3) {
+  border-radius: 0 0 0 16px;
+}
+
+.num3 .item:nth-child(3) .img {
+  background: url(../images/跳台滑雪.jpg) center / cover;
+}
+
+.num3 .item:nth-child(3) .text {
+  background: url(../images/跳台滑雪_bg.jpg) center / cover;
+}
+
+.num4 {
+  width: 250px;
+}
+
+
+/* 自由式滑雪 */
+
+.num4 .item:nth-child(1) {
+  border-radius: 16px 0 0 16px;
+}
+
+.num4 .item:nth-child(1) .img {
+  background: url(../images/自由式滑雪.jpg) center / cover;
+}
+
+.num4 .item:nth-child(1) .text {
+  background: url(../images/自由式滑雪_bg.jpg) center / cover;
+}
+
+
+/* 单板滑雪 */
+
+.num4 .item:nth-child(2) {
+  border-radius: 16px 0 0 0;
+  margin: 128px 0 2px;
+}
+
+.num4 .item:nth-child(2) .img {
+  background: url(../images/单板滑雪.jpg) center / cover;
+}
+
+.num4 .item:nth-child(2) .text {
+  background: url(../images/单板滑雪_bg.jpg) center / cover;
+}
+
+
+/* 钢架雪车 */
+
+.num4 .item:nth-child(3) {
+  border-radius: 0 16px 16px 0;
+  margin-left: 124px;
+}
+
+.num4 .item:nth-child(3) .img {
+  background: url(../images/钢架雪车.jpg) center / cover;
+}
+
+.num4 .item:nth-child(3) .text {
+  background: url(../images/钢架雪车_bg.jpg) center / cover;
+}
+
+
+/* 翻转动画 */
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  10% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  60% {
+    transform: rotateY(0);
+  }
+}
+
+
+/* 第一波 */
+
+.num1 .item:nth-child(1) a,
+.num1 .item:nth-child(4) a,
+.num2 .item:nth-child(3) a,
+.num3 .item:nth-child(1) a,
+.num4 .item:nth-child(1) a {
+  animation: flip 10s infinite;
+}
+
+
+/* 第二波 */
+
+.num1 .item:nth-child(2) a,
+.num2 .item:nth-child(1) a,
+.num2 .item:nth-child(4) a,
+.num3 .item:nth-child(2) a,
+.num4 .item:nth-child(2) a {
+  animation: flip 10s 1.2s infinite;
+}
+
+
+/* 第三波 */
+
+.num1 .item:nth-child(3) a,
+.num2 .item:nth-child(2) a,
+.num2 .item:nth-child(5) a,
+.num3 .item:nth-child(3) a,
+.num4 .item:nth-child(3) a {
+  animation: flip 10s 2.4s infinite;
+}
