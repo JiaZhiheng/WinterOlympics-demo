@@ -11,6 +11,7 @@ body {
 #top {
   height: 240px;
   background: url(../images/header-bg.png) center no-repeat;
+  /* 居中 不重复 */
 }
 
 #wrap {
@@ -43,19 +44,21 @@ li {
   list-style: none;
 }
 
-.a {
+.menuitem {
   display: inline-block;
   height: 100%;
   color: #fff;
   padding: 0 28px;
   text-decoration: none;
+  /* 默认定义标准的文本 */
   white-space: nowrap;
+  /* 文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
   text-align: center;
   font-size: 16px;
   line-height: 40px;
 }
 
-.a:hover {
+.menuitem:hover {
   background-color: #17b8ee
 }
 
@@ -180,12 +183,12 @@ li {
 
 /* num2 */
 
-
-/* 花样滑冰 */
-
 .num2 {
   width: 369px;
 }
+
+
+/* 花样滑冰 */
 
 .num2 .item:nth-child(1) {
   border-radius: 0 16px 0 0;
@@ -263,6 +266,9 @@ li {
   background: url(../images/冰壶_bg.jpg) center / cover;
 }
 
+
+/* num3 */
+
 .num3 {
   width: 244px;
 }
@@ -312,6 +318,9 @@ li {
 .num3 .item:nth-child(3) .text {
   background: url(../images/跳台滑雪_bg.jpg) center / cover;
 }
+
+
+/* num4 */
 
 .num4 {
   width: 250px;
